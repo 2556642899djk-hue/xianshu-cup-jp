@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 //第六届预赛集合
 const cup6Preliminary = [
   {
@@ -15,17 +17,48 @@ const cup6Preliminary = [
 ];
 
 //第六届决赛集合
-const cup6Final = [];
+const cup6Final = [
+{
+    order: 1,
+    name: "FinalPlayer",
+    squad: "指揮分隊",
+    operator: "ウィシャデル",
+    ending: "第五結末",
+    score: 130,
+    bilibili: "https://www.bilibili.com",
+  },
+];
 
 //第七届预赛集合
-const cup7Preliminary = [];
+const cup7Preliminary = [
+  {
+    order: 1,
+    name: "FinalPlayer",
+    squad: "指揮分隊",
+    operator: "ウィシャデル",
+    ending: "第五結末",
+    score: 130,
+    bilibili: "https://www.bilibili.com",
+  },
+];
 
 //第七届决赛集合
-const cup7Final = [];
+const cup7Final = [
+  {
+    order: 1,
+    name: "FinalPlayer",
+    squad: "指揮分隊",
+    operator: "ウィシャデル",
+    ending: "第五結末",
+    score: 130,
+    bilibili: "https://www.bilibili.com",
+  },
+];
 
-import Link from "next/link";
+
 
 type Player = {
+  order: number;
   name: string;
   squad: string;
   operator: string;
@@ -33,6 +66,7 @@ type Player = {
   score: number;
   bilibili: string;
   article?: string;
+  image?: string;
 };
 
 export default function SarkazPage() {
