@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
-import { M_PLUS_Rounded_1c } from "next/font/google";
+import { SiteFooter } from "./components/site-footer";
+import { SiteHeader } from "./components/site-header";
 import "./globals.css";
 
-const rounded = M_PLUS_Rounded_1c({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
-
 export const metadata: Metadata = {
-  title: "仙術杯JP",
-  description: "Arknights CN Community Localization Project",
+  metadataBase: new URL("https://xianshu-cup-jp-joui.vercel.app"),
+  title: {
+    default: "仙術杯 JP Archive",
+    template: "%s | 仙術杯 JP Archive",
+  },
+  description:
+    "中国アークナイツ統合戦略コミュニティ大会『仙術杯』第3回〜第8回の選手・チーム・分隊・初手・結末・得点を横断できる日本語アーカイブ。",
+  openGraph: {
+    title: "仙術杯 JP Archive",
+    description: "仙術杯 #3—#8 をひとつの記録へ。",
+    type: "website",
+    locale: "ja_JP",
+  },
 };
 
 export default function RootLayout({
@@ -19,8 +26,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={rounded.className}>
+      <body>
+        <a className="skip-link" href="#main-content">
+          コンテンツへ移動
+        </a>
+        <SiteHeader />
         {children}
+        <SiteFooter />
       </body>
     </html>
   );
