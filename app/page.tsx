@@ -99,6 +99,7 @@ export default function Home() {
                 alt={`${theme.titleJa} / ${theme.titleCn}`}
                 fill
                 priority={index < 2}
+                quality={92}
                 sizes="(max-width: 760px) 100vw, 50vw"
               />
               <span className="theme-card__veil" aria-hidden="true" />
