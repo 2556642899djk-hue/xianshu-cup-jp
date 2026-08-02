@@ -40,7 +40,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E5%89%91%E5%9C%A3Kensei",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1Gs4y1Q7cs?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/00ac1e0c12cace56.webp"
   },
   {
     "id": "s3-03",
@@ -61,7 +62,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E5%B9%BD%E5%B9%BD%E5%AD%90%E6%89%8D%E4%B8%8D%E6%98%AF%E5%90%83%E8%B4%A7%E5%91%A2",
     "matchVideoUrl": "https://www.bilibili.com/video/BV11h411c7y3?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/270e52103ff5340e.webp"
   },
   {
     "id": "s3-04",
@@ -82,7 +84,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E5%A4%A9%E9%99%8D%E5%85%89%E7%8E%89",
     "matchVideoUrl": "https://www.bilibili.com/video/BV11h411c7y3?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/65c733aeda441ff6.webp"
   },
   {
     "id": "s3-05",
@@ -125,7 +128,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E7%BD%97%E5%BE%B7%E5%B2%9B%E5%BE%B7%E7%8B%97%E5%88%86%E5%B2%9B%EF%BC%88VE%EF%BC%89",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1ea4y13736?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/c05f97829c46ca31.webp"
   },
   {
     "id": "s3-07",
@@ -165,7 +169,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%97%A8%E8%90%A8%E9%B8%AD%EF%BC%88%E5%B7%85%E5%B3%B0%E5%B7%AB%E6%81%8B%EF%BC%89",
     "matchVideoUrl": "https://www.bilibili.com/video/BV16L411z7yw?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/f2422bd682a42fa3.webp",
+    "bilibiliUrl": "https://space.bilibili.com/360389503"
   },
   {
     "id": "s3-09",
@@ -208,7 +214,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E5%8D%8E%E4%BA%93",
     "matchVideoUrl": "https://www.bilibili.com/video/BV11a4y1g7KB?p=4",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/0bd9480437ced1bb.webp"
   },
   {
     "id": "s3-11",
@@ -251,7 +258,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E4%BF%9D%E6%8A%A4%E7%99%BE%E5%90%88%E5%AD%90",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1bk4y1L7hb?p=4",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/cd583ca3868052a9.webp"
   },
   {
     "id": "s3-13",
@@ -314,7 +322,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=Sino_P",
     "matchVideoUrl": "https://www.bilibili.com/video/BV11a4y1g7KB?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/9dbb0b5209c02dad.webp"
   },
   {
     "id": "s3-16",
@@ -356,7 +365,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E6%83%B3%E6%83%B3%E5%8D%81%E4%B8%89%E4%BC%9A%E6%80%8E%E4%B9%88%E8%A3%85",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1Gs4y1Q7cs?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/38793c02cfc45cd8.webp",
+    "bilibiliUrl": "https://space.bilibili.com/277445372"
   },
   {
     "id": "s3-18",
@@ -421,7 +432,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%98%BF%E8%8A%99%E6%9C%B5%E5%98%89%E3%81%AE%E6%89%93%E5%AD%97%E6%9C%BA",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1xM4y1t7Mz?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/47a88a9cfbcf4a5e.webp"
   },
   {
     "id": "s3-21",
@@ -464,7 +476,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%80%97%E6%AF%94%E5%AF%92MilleRHan",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1xM4y1t7Mz?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/73afb9d90c1b07b8.webp"
   },
   {
     "id": "s3-23",
@@ -485,7 +498,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=MR%E6%B5%81%E6%98%9F%E9%A3%9E",
     "matchVideoUrl": "https://www.bilibili.com/video/BV11a4y1g7KB?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/8f3c648f497b4ae9.webp"
   },
   {
     "id": "s3-24",
@@ -506,7 +520,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E4%B9%85%E5%9F%8Ekazuya",
     "matchVideoUrl": "https://www.bilibili.com/video/BV11h411c7y3?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/73e4354e2ba5d641.webp"
   },
   {
     "id": "s3-25",
@@ -526,7 +541,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=DYZZDD",
     "matchVideoUrl": "https://www.bilibili.com/video/BV16L411z7yw?p=4",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/baed883140cbf943.webp",
+    "bilibiliUrl": "https://space.bilibili.com/518125488"
   },
   {
     "id": "s3-26",
@@ -587,7 +604,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E6%88%91%E9%95%BF%E9%A2%88%E9%B9%BF%E6%87%82%E4%BA%86",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1bk4y1L7hb?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/d1378c53dc38eb47.webp"
   },
   {
     "id": "s4-01",
@@ -630,7 +648,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E7%BB%B5%E9%98%B3%E6%80%AA%E5%85%BD",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1eP41187tF?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/e26bdbef07e590c3.webp"
   },
   {
     "id": "s4-03",
@@ -717,7 +736,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E4%BF%9D%E6%8A%A4%E7%99%BE%E5%90%88%E5%AD%90",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1FP411h77m?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/cd583ca3868052a9.webp"
   },
   {
     "id": "s4-07",
@@ -737,7 +757,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E6%B4%9B%E6%96%B9%E7%9B%B4",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1QN411n7WP?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/f6b084d733fb2c17.webp",
+    "bilibiliUrl": "https://space.bilibili.com/399303469"
   },
   {
     "id": "s4-08",
@@ -758,7 +780,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E6%8B%82%E5%85%89%E5%82%B2%E9%9B%AA",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1Dh4y1w7Gp?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/ea87926bc13d81c6.webp"
   },
   {
     "id": "s4-09",
@@ -778,7 +801,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=12551891",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1QN411n7WP?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/71af4e14ba964495.webp",
+    "bilibiliUrl": "https://space.bilibili.com/501255"
   },
   {
     "id": "s4-10",
@@ -820,7 +845,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E5%9B%BD%E4%B8%80%E7%8E%AB%E5%85%B0%E8%8E%8E%E5%8E%A8",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1mp4y1A7W4?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/708dba2397978534.webp",
+    "bilibiliUrl": "https://space.bilibili.com/325553124"
   },
   {
     "id": "s4-12",
@@ -885,7 +912,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E4%B9%85%E5%9F%8Ekazuya",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1FP411h77m?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/73e4354e2ba5d641.webp"
   },
   {
     "id": "s4-15",
@@ -905,7 +933,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=_NH4_Irony_",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1ku411w7jJ?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/2cda2e49b7d7e248.webp",
+    "bilibiliUrl": "https://space.bilibili.com/8009659"
   },
   {
     "id": "s4-16",
@@ -926,7 +956,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=MR%E6%B5%81%E6%98%9F%E9%A3%9E",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1Dh4y1w7Gp?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/8f3c648f497b4ae9.webp"
   },
   {
     "id": "s4-17",
@@ -990,7 +1021,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E8%BF%B7%E8%BF%AD%E9%A6%99%E7%9A%84%E6%91%B8%E6%91%B8%E5%88%B8",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1eP41187tF?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/069416e52825be44.webp",
+    "bilibiliUrl": "https://space.bilibili.com/3537125123295275"
   },
   {
     "id": "s4-20",
@@ -1092,7 +1125,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E6%83%B3%E6%83%B3%E5%8D%81%E4%B8%89%E4%BC%9A%E6%80%8E%E4%B9%88%E8%A3%85",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1Ej411k7pD?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/38793c02cfc45cd8.webp",
+    "bilibiliUrl": "https://space.bilibili.com/277445372"
   },
   {
     "id": "s5-01",
@@ -1201,7 +1236,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%80%97%E6%AF%94%E5%AF%92MillerRHan",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1QJ4m1b7t6?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/73afb9d90c1b07b8.webp"
   },
   {
     "id": "s5-06",
@@ -1222,7 +1258,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%AD%94%E6%B3%95Zc%E7%9B%AE%E5%BD%95",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1kw4m1d7N6?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/fbae20819dd3a235.webp"
   },
   {
     "id": "s5-07",
@@ -1243,7 +1280,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E7%BB%9D%E5%91%BD%E7%AC%8B%E5%B9%B2",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1mZ421h7k9?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/8f8610b31da0382c.webp"
   },
   {
     "id": "s5-08",
@@ -1264,7 +1302,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%BE%99%E5%93%A5%E5%93%A5%E4%BB%8A%E5%A4%A9%E5%8F%88%E9%B8%BD%E4%BA%86",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1Fp421U7os?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/0a698ef59fd99621.webp"
   },
   {
     "id": "s5-09",
@@ -1285,7 +1324,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%87%8D%E7%94%9F%E4%B9%8B%E5%86%B0",
     "matchVideoUrl": "https://www.bilibili.com/video/BV17J4m1a7uS?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/8ba55e3f6e551fd3.webp"
   },
   {
     "id": "s5-10",
@@ -1326,7 +1366,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E4%B9%85%E5%9F%8Ekazuya",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1XW421F7df?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/73e4354e2ba5d641.webp"
   },
   {
     "id": "s5-12",
@@ -1347,7 +1388,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=CSZDCR",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1Fp421U7os?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/fd840107938902e6.webp"
   },
   {
     "id": "s5-13",
@@ -1368,7 +1410,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%A3%8E%E5%89%8D%E8%88%86%E8%AE%BA%E6%B1%A4",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1QJ4m1b7t6?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/a991b33bf1da65cd.webp"
   },
   {
     "id": "s5-14",
@@ -1410,7 +1453,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%97%A8%E8%90%A8%E9%B8%AD",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1XW421F7df?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/f2422bd682a42fa3.webp",
+    "bilibiliUrl": "https://space.bilibili.com/360389503"
   },
   {
     "id": "s5-16",
@@ -1453,7 +1498,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E7%BB%B5%E9%98%B3%E6%80%AA%E5%85%BD",
     "matchVideoUrl": "https://www.bilibili.com/video/BV17J4m1a7uS?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/e26bdbef07e590c3.webp"
   },
   {
     "id": "s5-18",
@@ -1496,7 +1542,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E4%BF%9D%E6%8A%A4%E7%99%BE%E5%90%88%E5%AD%90",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1mZ421h7k9?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/cd583ca3868052a9.webp"
   },
   {
     "id": "s5-20",
@@ -1561,7 +1608,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=MR%E6%B5%81%E6%98%9F%E9%A3%9E",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1Vw4m1d7gd?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/8f3c648f497b4ae9.webp"
   },
   {
     "id": "s5-23",
@@ -1582,7 +1630,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E5%89%91%E5%9C%A3Kensei",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1mZ421h7k9?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/00ac1e0c12cace56.webp"
   },
   {
     "id": "s5-24",
@@ -1647,7 +1696,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E6%88%91%E9%95%BF%E9%A2%88%E9%B9%BF%E6%87%82%E4%BA%86",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1iSkgYBEvo?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/d1378c53dc38eb47.webp"
   },
   {
     "id": "s6-03",
@@ -1668,7 +1718,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%A3%8E%E5%89%8D%E8%88%86%E8%AE%BA%E6%B1%A4",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1kSkNYAEc2?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/a991b33bf1da65cd.webp"
   },
   {
     "id": "s6-04",
@@ -1689,7 +1740,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=CSZDCR",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1GzkeYYEhW?p=2",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/fd840107938902e6.webp"
   },
   {
     "id": "s6-05",
@@ -1776,7 +1828,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=MR%E6%B5%81%E6%98%9F%E9%A3%9E",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1GzkeYYEhW?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/8f3c648f497b4ae9.webp"
   },
   {
     "id": "s6-09",
@@ -1818,7 +1871,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E4%BB%96%E7%9A%84%E5%8D%81%E5%A4%A9Histensky",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1o9kWYGEuw?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/d6a0d6ab28296a18.webp",
+    "bilibiliUrl": "https://space.bilibili.com/246187036"
   },
   {
     "id": "s6-11",
@@ -1905,7 +1960,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E5%89%91%E5%9C%A3kensei",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1iSkgYBEvo?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/00ac1e0c12cace56.webp"
   },
   {
     "id": "s6-15",
@@ -2058,7 +2114,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E9%87%8D%E7%94%9F%E4%B9%8B%E5%86%B0",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1wmBcY5E4c?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/8ba55e3f6e551fd3.webp"
   },
   {
     "id": "s6-22",
@@ -2078,7 +2135,9 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E6%A2%A6%E6%B8%B8%E7%9A%84%E8%8A%B1%E8%88%9E",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1o9kWYGEuw?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/06db7de3e66d8021.webp",
+    "bilibiliUrl": "https://space.bilibili.com/35148769"
   },
   {
     "id": "s6-23",
@@ -2099,7 +2158,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E7%BD%97%E5%BE%B7%E5%B2%9B%E5%BE%B7%E7%8B%97%E5%88%86%E5%B2%9B",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1kSkNYAEc2?p=3",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/c05f97829c46ca31.webp"
   },
   {
     "id": "s6-24",
@@ -2120,7 +2180,8 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/upuser?keyword=%E7%BB%B5%E9%98%B3%E6%80%AA%E5%85%BD",
     "matchVideoUrl": "https://www.bilibili.com/video/BV1wPCuY5EKh?p=1",
     "matchVideoStatus": "needs-review",
-    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯"
+    "sourceUrl": "https://moegirl.icu/zh-hans/明日方舟仙术杯",
+    "avatar": "/avatars/e26bdbef07e590c3.webp"
   },
   {
     "id": "jiufang",

@@ -41,6 +41,12 @@ python scripts/import_roster.py path/to/仙术杯选手档案.html --download-re
 - `app/data/players.json`：结构化参赛记录
 - `public/avatars/`：去重并压缩后的本地头像
 
+如需从名册内已有的 Bilibili UID 补充公开头像，并仅对账号名完全一致的搜索结果进行回填：
+
+```bash
+python scripts/fill_bilibili_avatars.py --search-exact
+```
+
 ## 项目结构
 
 ```text
