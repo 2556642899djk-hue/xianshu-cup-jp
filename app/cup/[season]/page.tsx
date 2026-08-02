@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getSeasonMeta, getSeasonRecords, seasons } from "../../data/archive";
+import { getEndingNameJa, getOperatorNameJa } from "../../data/localization";
 import type { PlayerRecord } from "../../data/types";
 import styles from "./page.module.css";
 
@@ -316,11 +317,11 @@ function CupRecordCard({ record, sequence }: { record: PlayerRecord; sequence: n
         </div>
         <div>
           <span>START / 初手</span>
-          <b>{record.operator}</b>
+          <b>{getOperatorNameJa(record.operator)}</b>
         </div>
         <div>
           <span>ENDING / 結末</span>
-          <b>{record.ending}</b>
+          <b>{getEndingNameJa(record.ending)}</b>
         </div>
       </div>
 

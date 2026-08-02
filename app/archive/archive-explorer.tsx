@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useMemo, useState } from "react";
+import { getEndingNameJa, getOperatorNameJa } from "../data/localization";
 import type { PlayerRecord, SeasonMeta } from "../data/types";
 
 type SortMode = "newest" | "oldest" | "score";
@@ -33,7 +34,9 @@ function searchableText(record: PlayerRecord) {
     record.squadCn,
     record.squadJa,
     record.operator,
+    getOperatorNameJa(record.operator),
     record.ending,
+    getEndingNameJa(record.ending),
   ]
     .join(" ")
     .toLocaleLowerCase("ja-JP");
@@ -296,11 +299,11 @@ function RecordCard({ record }: { record: PlayerRecord }) {
         </div>
         <div>
           <span>初手 / START</span>
-          <b>{record.operator}</b>
+          <b>{getOperatorNameJa(record.operator)}</b>
         </div>
         <div className="record-card__ending">
           <span>達成結末 / ENDING</span>
-          <b>{record.ending}</b>
+          <b>{getEndingNameJa(record.ending)}</b>
         </div>
       </div>
 
