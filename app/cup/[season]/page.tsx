@@ -16,24 +16,40 @@ const designs = {
     code: "TIDAL OBSERVATION",
     label: "DEEP BLUE ARCHIVE",
     description: "潮汐観測ログと深藍の航路をモチーフにした、水月テーマの大会記録。",
+    timelineCode: "CAERULA ROUTE / TIDAL TRACE",
+    timelineTitle: "深蓝潜航记录",
+    timelineDescription: "公開記録を潮汐観測ログとして再構成。潜航日は古い記録から順に進みます。",
+    dayLabel: "DIVE",
   },
   ice: {
     image: "/images/sami.png",
     code: "POLAR EXPEDITION",
     label: "FROST INDEX",
     description: "氷原調査票と極地座標をモチーフにした、サーミテーマの大会記録。",
+    timelineCode: "POLAR ROUTE / FIELD COORDINATES",
+    timelineTitle: "极地远征日志",
+    timelineDescription: "大会日程を極地調査ルートとして整理。同日の記録は調査票の掲載順です。",
+    dayLabel: "ROUTE",
   },
   amber: {
     image: "/images/sarkaz.png",
     code: "HEARTH SIGNAL",
     label: "FIELD TERMINAL",
     description: "炉辺の信号と警戒端末をモチーフにした、サルカズテーマの大会記録。",
+    timelineCode: "FURNACE TALE / ORAL HISTORY",
+    timelineTitle: "炉边赛事篇章",
+    timelineDescription: "公開記録を炉辺で語り継がれる章として編成。古い物語から順に収録しています。",
+    dayLabel: "CHAPTER",
   },
   rose: {
     image: "/images/kaienn.png",
     code: "SUI ANOMALY",
     label: "界園観測録",
     description: "界園の巻物と朱印をモチーフにした、歳テーマの大会記録。",
+    timelineCode: "GARDEN SCROLL / VISITOR REGISTER",
+    timelineTitle: "界园游览志录",
+    timelineDescription: "大会記録を界園の游覧巻として編纂。来訪日は古いものから順に開かれます。",
+    dayLabel: "SCROLL",
   },
 } as const;
 
@@ -204,12 +220,10 @@ export default async function CupPage({ params }: CupPageProps) {
       <section className={`${styles.timelineSection} section-shell`}>
         <header className={styles.timelineHeading}>
           <div>
-            <p>CHRONOLOGICAL RUN LOG / {meta.period}</p>
-            <h2>比赛时间顺序</h2>
+            <p>{design.timelineCode} / {meta.period}</p>
+            <h2>{design.timelineTitle}</h2>
           </div>
-          <p>
-            公開記録を日付の古い順に整理しています。同日の記録は大会資料上の掲載順です。
-          </p>
+          <p>{design.timelineDescription}</p>
         </header>
 
         <div className={styles.timeline}>
@@ -221,7 +235,7 @@ export default async function CupPage({ params }: CupPageProps) {
             >
               <header className={styles.dayHeader}>
                 <div>
-                  <span>DAY {String(group.day).padStart(2, "0")}</span>
+                  <span>{design.dayLabel} {String(group.day).padStart(2, "0")}</span>
                   <time dateTime={group.date}>{formatDate(group.date)}</time>
                 </div>
                 <strong>{String(groupIndex + 1).padStart(2, "0")}</strong>

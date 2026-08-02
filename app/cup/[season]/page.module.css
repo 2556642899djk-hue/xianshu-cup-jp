@@ -889,3 +889,759 @@
     justify-content: flex-start;
   }
 }
+
+/* Game-inspired expedition visual languages */
+
+.timelineSection {
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+}
+
+.timelineSection::before {
+  position: absolute;
+  z-index: -1;
+  inset: 38px 0 0;
+  border-top: 1px solid rgba(var(--cup-accent-rgb), 0.18);
+  content: "";
+  pointer-events: none;
+}
+
+.heroDeck::before,
+.runCard::after {
+  pointer-events: none;
+}
+
+/* Mizuki / oceanic organism, sonar, bioluminescence */
+
+.cyan::before {
+  background:
+    radial-gradient(circle at 82% 18%, rgba(53, 224, 246, 0.2), transparent 20%),
+    radial-gradient(circle at 12% 70%, rgba(40, 167, 214, 0.12), transparent 24%),
+    linear-gradient(180deg, rgba(238, 252, 255, 0.86), rgba(213, 242, 249, 0.94));
+}
+
+.cyan::after {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background:
+    repeating-radial-gradient(circle at 90% 38%, transparent 0 42px, rgba(35, 173, 210, 0.055) 43px 44px),
+    linear-gradient(115deg, transparent 72%, rgba(64, 211, 233, 0.06) 72.2% 72.5%, transparent 72.7%);
+  content: "";
+  pointer-events: none;
+}
+
+.cyan .heroVisual {
+  border-color: rgba(79, 229, 250, 0.5);
+  box-shadow:
+    inset 0 0 0 1px rgba(69, 225, 247, 0.2),
+    0 34px 90px rgba(3, 56, 82, 0.25);
+}
+
+.cyan .heroTint {
+  background:
+    radial-gradient(circle at 18% 56%, rgba(50, 225, 245, 0.18), transparent 24%),
+    linear-gradient(90deg, rgba(1, 22, 39, 0.42), transparent 55%);
+}
+
+.cyan .heroDeck {
+  border-color: rgba(85, 225, 245, 0.42);
+  background:
+    radial-gradient(circle at 92% 76%, rgba(53, 218, 239, 0.16), transparent 22%),
+    linear-gradient(135deg, rgba(2, 31, 50, 0.94), rgba(4, 61, 79, 0.9));
+  box-shadow:
+    inset 0 1px rgba(107, 235, 250, 0.18),
+    inset 0 0 0 1px rgba(48, 215, 239, 0.12),
+    0 26px 68px rgba(3, 52, 73, 0.28);
+}
+
+.cyan .heroDeck::before {
+  position: absolute;
+  right: 10%;
+  bottom: -52px;
+  width: 180px;
+  height: 180px;
+  border: 1px solid rgba(67, 224, 244, 0.24);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 20px rgba(67, 224, 244, 0.035),
+    0 0 0 42px rgba(67, 224, 244, 0.018);
+  content: "";
+}
+
+.cyan .heroCopy h1,
+.cyan .heroCopy h2,
+.cyan .heroStats strong {
+  color: #f1fcff;
+}
+
+.cyan .heroCn,
+.cyan .heroDescription,
+.cyan .heroStats span {
+  color: #8fc6d3;
+}
+
+.cyan .heroStats {
+  border-color: rgba(73, 217, 238, 0.18);
+}
+
+.cyan .heroStats div {
+  position: relative;
+  border-color: rgba(73, 217, 238, 0.16);
+  background: rgba(3, 37, 55, 0.42);
+  overflow: hidden;
+}
+
+.cyan .heroStats div::after {
+  position: absolute;
+  right: -26px;
+  bottom: -26px;
+  width: 76px;
+  height: 76px;
+  border: 1px solid rgba(69, 224, 244, 0.13);
+  border-radius: 50%;
+  content: "";
+}
+
+.cyan .seasonNav a {
+  border-color: rgba(56, 177, 203, 0.34);
+  background: rgba(5, 51, 70, 0.74);
+  color: #cceef5;
+  box-shadow: inset 0 0 0 1px rgba(82, 220, 241, 0.08);
+}
+
+.cyan .seasonNav a small {
+  color: #72aaba;
+}
+
+.cyan .seasonNav .activeSeason {
+  background: #39d2ed;
+  color: #062a3d;
+}
+
+.cyan .seasonNav .activeSeason small {
+  color: #176278;
+}
+
+.cyan .seasonNav .archiveLink {
+  background: rgba(222, 249, 254, 0.68);
+  color: #078aac;
+}
+
+.cyan .timelineSection::before {
+  background:
+    repeating-radial-gradient(circle at 84% 12%, transparent 0 52px, rgba(25, 158, 194, 0.055) 53px 54px),
+    linear-gradient(180deg, rgba(223, 247, 252, 0.42), transparent 48%);
+}
+
+.cyan .timeline::before {
+  width: 2px;
+  background: linear-gradient(#53dff3, rgba(22, 139, 175, 0.08));
+  box-shadow: 0 0 18px rgba(52, 204, 231, 0.32);
+}
+
+.cyan .dayHeader::before {
+  width: 15px;
+  height: 15px;
+  border: 4px solid #e7faff;
+  background: #37d4ee;
+  box-shadow:
+    0 0 0 1px #32aeca,
+    0 0 0 7px rgba(45, 202, 228, 0.12),
+    0 0 22px rgba(49, 206, 234, 0.46);
+}
+
+.cyan .dayHeader > div {
+  border: 1px solid rgba(55, 201, 228, 0.22);
+  background: rgba(224, 248, 253, 0.76);
+}
+
+.cyan .runCard {
+  border-color: rgba(72, 218, 239, 0.34);
+  background:
+    radial-gradient(circle at 92% 12%, rgba(62, 218, 237, 0.12), transparent 25%),
+    linear-gradient(145deg, rgba(2, 32, 51, 0.94), rgba(5, 59, 75, 0.9));
+  box-shadow:
+    inset 0 0 0 1px rgba(58, 209, 232, 0.1),
+    0 20px 46px rgba(5, 55, 75, 0.2);
+  color: #eafaff;
+  clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 17px 100%, 0 calc(100% - 17px));
+}
+
+.cyan .runCard::after {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(73, 222, 242, 0.16);
+  border-radius: 50%;
+  box-shadow: 0 0 0 7px rgba(73, 222, 242, 0.025);
+  content: "";
+}
+
+.cyan .cardHeader,
+.cyan .cardFacts,
+.cyan .cardFacts > div:nth-child(2),
+.cyan .cardFacts > div:nth-child(3),
+.cyan .cardFooter {
+  border-color: rgba(77, 210, 230, 0.14);
+}
+
+.cyan .avatar {
+  border-radius: 50%;
+  background: rgba(80, 211, 231, 0.13);
+  box-shadow: 0 0 0 4px rgba(76, 215, 236, 0.06);
+}
+
+.cyan .identity h3,
+.cyan .cardFacts b {
+  color: #effcff;
+}
+
+.cyan .identity > span,
+.cyan .cardFacts span,
+.cyan .cardFacts small,
+.cyan .cardScore > span {
+  color: #7eacb9;
+}
+
+.cyan .sequence {
+  color: rgba(86, 224, 243, 0.3);
+}
+
+.cyan .cardScore {
+  background: rgba(2, 25, 40, 0.44);
+}
+
+.cyan .cardFooter a {
+  color: #9ec8d2;
+}
+
+/* Sami / expedition chart, contour lines, brittle ice */
+
+.ice::before {
+  background:
+    repeating-radial-gradient(ellipse at 88% 25%, transparent 0 46px, rgba(63, 120, 151, 0.045) 47px 48px),
+    linear-gradient(180deg, rgba(250, 253, 255, 0.94), rgba(225, 240, 247, 0.94));
+}
+
+.ice::after {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background:
+    linear-gradient(128deg, transparent 0 66%, rgba(92, 151, 181, 0.06) 66.1% 66.4%, transparent 66.5%),
+    linear-gradient(52deg, transparent 0 82%, rgba(92, 151, 181, 0.04) 82.1% 82.3%, transparent 82.4%);
+  content: "";
+  pointer-events: none;
+}
+
+.ice .heroVisual {
+  border-color: rgba(255, 255, 255, 0.96);
+  box-shadow:
+    inset 0 0 0 1px rgba(76, 136, 167, 0.16),
+    16px 18px 0 rgba(167, 202, 220, 0.18),
+    0 32px 70px rgba(41, 87, 112, 0.13);
+}
+
+.ice .heroDeck {
+  background:
+    repeating-radial-gradient(ellipse at 86% 30%, transparent 0 38px, rgba(70, 126, 155, 0.035) 39px 40px),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(223, 240, 248, 0.86));
+  box-shadow:
+    inset 0 1px #fff,
+    inset 0 0 0 1px rgba(73, 129, 157, 0.12),
+    0 22px 52px rgba(46, 91, 113, 0.12);
+}
+
+.ice .heroDeck::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36%;
+  height: 100%;
+  background:
+    linear-gradient(135deg, transparent 0 64%, rgba(89, 148, 176, 0.08) 64.3% 64.7%, transparent 65%),
+    linear-gradient(45deg, transparent 0 78%, rgba(89, 148, 176, 0.06) 78.3% 78.7%, transparent 79%);
+  content: "";
+}
+
+.ice .heroStats div {
+  position: relative;
+  background: rgba(248, 253, 255, 0.46);
+}
+
+.ice .heroStats div::before {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #6098b5;
+  border-right: 1px solid #6098b5;
+  content: "";
+}
+
+.ice .timelineSection::before {
+  background:
+    repeating-radial-gradient(ellipse at 76% 20%, transparent 0 48px, rgba(56, 117, 149, 0.04) 49px 50px),
+    linear-gradient(160deg, rgba(255, 255, 255, 0.4), transparent 45%);
+}
+
+.ice .timeline::before {
+  background: repeating-linear-gradient(180deg, #679eb9 0 8px, transparent 8px 14px);
+}
+
+.ice .dayHeader::before {
+  width: 13px;
+  height: 13px;
+  border: 3px solid #f4fbfe;
+  border-radius: 0;
+  background: #6b9db7;
+  box-shadow: 0 0 0 1px rgba(65, 114, 141, 0.42);
+  transform: rotate(45deg);
+}
+
+.ice .dayHeader > div {
+  border: 1px solid rgba(91, 145, 174, 0.24);
+  background: rgba(249, 253, 255, 0.84);
+  clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+}
+
+.ice .runCard {
+  border-color: rgba(255, 255, 255, 0.98);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(220, 238, 247, 0.72)),
+    #edf7fb;
+  box-shadow:
+    inset 0 0 0 1px rgba(80, 137, 166, 0.14),
+    8px 9px 0 rgba(160, 198, 217, 0.13),
+    0 18px 38px rgba(52, 97, 120, 0.09);
+  clip-path: polygon(15px 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%, 0 15px);
+}
+
+.ice .runCard::after {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid rgba(74, 131, 160, 0.26);
+  border-bottom: 1px solid rgba(74, 131, 160, 0.26);
+  content: "";
+}
+
+.ice .avatar {
+  background: rgba(207, 231, 242, 0.66);
+  clip-path: polygon(16% 0, 84% 0, 100% 18%, 100% 82%, 84% 100%, 16% 100%, 0 82%, 0 18%);
+}
+
+.ice .cardHeader {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.42), rgba(205, 232, 244, 0.16));
+}
+
+.ice .sequence {
+  color: rgba(58, 116, 147, 0.25);
+  font-family: "Arial Narrow", sans-serif;
+}
+
+/* Sarkaz / furnace, oral history, black iron and ember */
+
+.amber::before {
+  background:
+    radial-gradient(circle at 87% 18%, rgba(226, 143, 25, 0.16), transparent 20%),
+    linear-gradient(180deg, rgba(245, 243, 235, 0.94), rgba(226, 225, 216, 0.96));
+}
+
+.amber::after {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background:
+    repeating-linear-gradient(135deg, rgba(40, 40, 37, 0.022) 0 1px, transparent 1px 12px),
+    linear-gradient(90deg, transparent 78%, rgba(218, 137, 24, 0.05));
+  content: "";
+  pointer-events: none;
+}
+
+.amber .heroVisual {
+  border-color: rgba(234, 155, 37, 0.58);
+  box-shadow:
+    inset 0 0 0 1px rgba(235, 153, 32, 0.2),
+    0 34px 78px rgba(49, 40, 23, 0.22);
+}
+
+.amber .heroDeck {
+  border-color: rgba(230, 148, 26, 0.5);
+  background:
+    repeating-linear-gradient(135deg, rgba(231, 149, 28, 0.028) 0 8px, transparent 8px 16px),
+    linear-gradient(135deg, rgba(31, 32, 30, 0.97), rgba(54, 49, 38, 0.95));
+  box-shadow:
+    inset 0 1px rgba(255, 205, 126, 0.12),
+    0 28px 66px rgba(45, 39, 28, 0.24);
+}
+
+.amber .heroCopy h1,
+.amber .heroCopy h2,
+.amber .heroStats strong {
+  color: #fff7e8;
+}
+
+.amber .heroCopy h2,
+.amber .timelineHeading h2,
+.amber .identity h3 {
+  font-family: Georgia, "Noto Serif CJK JP", "Yu Mincho", serif;
+}
+
+.amber .heroCn,
+.amber .heroDescription,
+.amber .heroStats span {
+  color: #b9aa8f;
+}
+
+.amber .heroStats {
+  border-color: rgba(226, 145, 27, 0.18);
+}
+
+.amber .heroStats div {
+  border-color: rgba(226, 145, 27, 0.16);
+  background: rgba(20, 22, 21, 0.42);
+}
+
+.amber .seasonNav a {
+  border-color: rgba(112, 91, 54, 0.45);
+  background: rgba(37, 39, 37, 0.9);
+  color: #e8d9bb;
+}
+
+.amber .seasonNav a small {
+  color: #8f816b;
+}
+
+.amber .seasonNav .activeSeason {
+  border-color: #e39825;
+  background: #e39825;
+  color: #29251e;
+}
+
+.amber .seasonNav .archiveLink {
+  background: rgba(255, 248, 233, 0.66);
+  color: #bb7310;
+}
+
+.amber .timelineSection::before {
+  background:
+    repeating-linear-gradient(135deg, rgba(40, 40, 37, 0.02) 0 1px, transparent 1px 13px),
+    linear-gradient(180deg, rgba(242, 235, 218, 0.42), transparent 46%);
+}
+
+.amber .timeline::before {
+  width: 3px;
+  background: linear-gradient(#e39825, rgba(64, 58, 45, 0.12));
+}
+
+.amber .dayHeader::before {
+  width: 14px;
+  height: 14px;
+  border: 3px solid #f1ecdf;
+  border-radius: 0;
+  background: #252724;
+  box-shadow: 0 0 0 2px #df921e;
+  transform: rotate(45deg);
+}
+
+.amber .dayHeader > div {
+  border-top: 2px solid #df921e;
+  background:
+    repeating-linear-gradient(135deg, rgba(225, 145, 29, 0.035) 0 7px, transparent 7px 14px),
+    rgba(36, 38, 35, 0.94);
+}
+
+.amber .dayHeader time,
+.amber .dayHeader span {
+  color: #f1b44e;
+}
+
+.amber .dayHeader > strong {
+  color: rgba(93, 75, 46, 0.23);
+}
+
+.amber .runCard {
+  border-color: rgba(222, 145, 30, 0.36);
+  background:
+    repeating-linear-gradient(135deg, rgba(225, 146, 28, 0.022) 0 8px, transparent 8px 16px),
+    linear-gradient(145deg, rgba(33, 35, 33, 0.98), rgba(50, 48, 40, 0.96));
+  box-shadow:
+    inset 0 0 0 1px rgba(224, 145, 28, 0.08),
+    0 20px 44px rgba(47, 42, 32, 0.2);
+  color: #f5ead5;
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);
+}
+
+.amber .runCard::after {
+  position: absolute;
+  top: 0;
+  right: 28px;
+  width: 78px;
+  height: 5px;
+  background: repeating-linear-gradient(90deg, #e59a29 0 9px, transparent 9px 15px);
+  content: "";
+}
+
+.amber .cardHeader,
+.amber .cardFacts,
+.amber .cardFacts > div:nth-child(2),
+.amber .cardFacts > div:nth-child(3),
+.amber .cardFooter {
+  border-color: rgba(220, 143, 29, 0.15);
+}
+
+.amber .avatar {
+  border: 1px solid rgba(226, 151, 38, 0.34);
+  background: #181a19;
+}
+
+.amber .identity h3,
+.amber .cardFacts b {
+  color: #fff4df;
+}
+
+.amber .identity > span,
+.amber .cardFacts span,
+.amber .cardFacts small,
+.amber .cardScore > span {
+  color: #a99b84;
+}
+
+.amber .sequence {
+  color: rgba(229, 154, 42, 0.3);
+}
+
+.amber .cardScore {
+  background: rgba(18, 20, 19, 0.62);
+}
+
+.amber .cardFooter a {
+  color: #c9b899;
+}
+
+/* Sui / garden scroll, vermilion seals, six-sided tokens */
+
+.rose {
+  font-family: Inter, "Noto Sans SC", "PingFang SC", system-ui, sans-serif;
+}
+
+.rose::before {
+  background:
+    radial-gradient(circle at 85% 18%, rgba(221, 112, 118, 0.14), transparent 22%),
+    radial-gradient(circle at 14% 72%, rgba(82, 158, 151, 0.09), transparent 24%),
+    linear-gradient(180deg, rgba(255, 251, 246, 0.94), rgba(242, 231, 220, 0.96));
+}
+
+.rose::after {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background:
+    linear-gradient(30deg, transparent 0 88%, rgba(191, 78, 85, 0.045) 88.2% 88.5%, transparent 88.7%),
+    repeating-linear-gradient(120deg, rgba(71, 133, 128, 0.018) 0 1px, transparent 1px 18px);
+  content: "";
+  pointer-events: none;
+}
+
+.rose .heroVisual {
+  border-color: rgba(196, 75, 84, 0.48);
+  box-shadow:
+    inset 0 0 0 4px rgba(255, 247, 239, 0.35),
+    inset 0 0 0 5px rgba(186, 72, 81, 0.13),
+    0 34px 80px rgba(95, 58, 54, 0.16);
+}
+
+.rose .heroDeck {
+  border-color: rgba(191, 79, 86, 0.34);
+  background:
+    radial-gradient(circle at 84% 24%, rgba(206, 96, 102, 0.08), transparent 24%),
+    linear-gradient(135deg, rgba(255, 252, 246, 0.96), rgba(239, 220, 209, 0.9));
+  box-shadow:
+    inset 0 0 0 4px rgba(255, 250, 242, 0.56),
+    inset 0 0 0 5px rgba(178, 69, 76, 0.12),
+    0 24px 58px rgba(93, 55, 52, 0.13);
+}
+
+.rose .heroDeck::before {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+  border: 1px solid rgba(177, 69, 76, 0.1);
+  content: "";
+}
+
+.rose .heroCopy h1,
+.rose .heroCopy h2,
+.rose .timelineHeading h2,
+.rose .identity h3 {
+  font-family: "Songti SC", "Noto Serif CJK SC", "STSong", serif;
+}
+
+.rose .heroStats {
+  align-content: center;
+  gap: 8px;
+  border-left: 0;
+  padding: 16px;
+}
+
+.rose .heroStats div {
+  min-height: 112px;
+  border: 0;
+  background: rgba(255, 250, 243, 0.74);
+  box-shadow: inset 0 0 0 1px rgba(181, 73, 80, 0.14);
+  clip-path: polygon(12% 0, 88% 0, 100% 15%, 100% 85%, 88% 100%, 12% 100%, 0 85%, 0 15%);
+}
+
+.rose .seasonNav a {
+  border-color: rgba(180, 76, 82, 0.2);
+  background: rgba(255, 250, 243, 0.74);
+  color: #68494d;
+}
+
+.rose .seasonNav .activeSeason {
+  border-color: #c65f65;
+  background: #c65f65;
+  color: #fff8f2;
+}
+
+.rose .seasonNav .archiveLink {
+  color: #bb5960;
+}
+
+.rose .timelineSection::before {
+  background:
+    radial-gradient(circle at 88% 18%, rgba(196, 85, 92, 0.075), transparent 22%),
+    linear-gradient(120deg, rgba(255, 250, 243, 0.6), transparent 48%);
+}
+
+.rose .timeline::before {
+  width: 2px;
+  background: repeating-linear-gradient(180deg, #c8686e 0 6px, transparent 6px 12px);
+}
+
+.rose .dayHeader::before {
+  width: 16px;
+  height: 16px;
+  border: 3px solid #fff7ef;
+  border-radius: 0;
+  background: #c9676d;
+  box-shadow: 0 0 0 1px rgba(154, 59, 65, 0.4);
+  clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
+}
+
+.rose .dayHeader > div {
+  border: 1px solid rgba(183, 71, 78, 0.2);
+  background: rgba(255, 249, 241, 0.84);
+  box-shadow: inset 0 0 0 3px rgba(200, 101, 107, 0.035);
+}
+
+.rose .runCard {
+  border-color: rgba(190, 78, 84, 0.25);
+  background:
+    linear-gradient(145deg, rgba(255, 252, 246, 0.95), rgba(239, 220, 208, 0.8)),
+    #f8eee5;
+  box-shadow:
+    inset 0 0 0 4px rgba(255, 250, 243, 0.52),
+    inset 0 0 0 5px rgba(179, 70, 77, 0.08),
+    0 18px 40px rgba(89, 54, 51, 0.1);
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+}
+
+.rose .runCard::after {
+  position: absolute;
+  z-index: 2;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border: 1px solid rgba(168, 62, 69, 0.34);
+  color: rgba(168, 62, 69, 0.45);
+  content: "录";
+  font-family: "Songti SC", serif;
+  font-size: 0.58rem;
+  font-weight: 900;
+}
+
+.rose .avatar {
+  background: rgba(226, 197, 181, 0.58);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.rose .cardHeader {
+  background: linear-gradient(90deg, rgba(255, 251, 245, 0.54), rgba(222, 189, 175, 0.12));
+}
+
+.rose .sequence {
+  color: rgba(181, 68, 75, 0.24);
+  font-family: "Songti SC", serif;
+}
+
+.rose .cardScore {
+  background: rgba(220, 185, 170, 0.2);
+}
+
+.rose .cardScore strong {
+  color: #b5535a;
+}
+
+@media (max-width: 900px) {
+  .rose .heroStats {
+    border-top: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .cyan .heroDeck,
+  .amber .heroDeck {
+    -webkit-backdrop-filter: blur(18px) saturate(125%);
+    backdrop-filter: blur(18px) saturate(125%);
+  }
+
+  .cyan .seasonNav a,
+  .amber .seasonNav a {
+    min-width: 58px;
+  }
+
+  .rose .heroStats {
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .rose .heroStats div {
+    min-height: 84px;
+  }
+
+  .cyan .dayHeader::before,
+  .ice .dayHeader::before,
+  .amber .dayHeader::before,
+  .rose .dayHeader::before {
+    top: 14px;
+    left: -23px;
+  }
+}
+
+@media (max-width: 520px) {
+  .cyan .avatar {
+    box-shadow: 0 0 0 3px rgba(76, 215, 236, 0.05);
+  }
+
+  .amber .cardScore {
+    background: rgba(18, 20, 19, 0.72);
+  }
+
+  .rose .avatar {
+    clip-path: polygon(12% 0, 88% 0, 100% 12%, 100% 88%, 88% 100%, 12% 100%, 0 88%, 0 12%);
+  }
+}
