@@ -141,7 +141,7 @@ export default function Home() {
           {seasonRows.map((season) => (
             <Link
               className={`season-ledger__row accent-${season.accent}`}
-              href={`/archive?season=${season.season}`}
+              href={`/cup/${season.season}`}
               key={season.season}
               role="row"
             >
