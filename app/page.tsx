@@ -57,22 +57,22 @@ export default function Home() {
         <div className="stat">
           <strong>{records.length}</strong>
           <span>RECORDS</span>
-          <small>赛事记录</small>
+          <small>大会記録</small>
         </div>
         <div className="stat">
           <strong>{uniquePlayers}</strong>
           <span>PLAYERS</span>
-          <small>不同选手名</small>
+          <small>参加選手</small>
         </div>
         <div className="stat">
           <strong>6</strong>
           <span>SEASONS</span>
-          <small>第 3—8 届</small>
+          <small>第3回—第8回</small>
         </div>
         <div className="stat">
           <strong>{uniqueDays}</strong>
           <span>MATCH DAYS</span>
-          <small>公开比赛日</small>
+          <small>公開試合日</small>
         </div>
       </section>
 
