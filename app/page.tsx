@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { records, seasons, themes } from "./data/archive";
+import { translationClips, type TranslationClip } from "./data/clips";
 
 const uniquePlayers = new Set(records.map((record) => record.name)).size;
 const uniqueDays = new Set(records.map((record) => record.date)).size;
@@ -13,6 +14,65 @@ const seasonRows = seasons.map((season) => {
     playerCount: new Set(seasonRecords.map((record) => record.name)).size,
   };
 });
+
+function TranslationClipCard({
+  clip,
+  featured = false,
+  index,
+}: {
+  clip: TranslationClip;
+  featured?: boolean;
+  index: number;
+}) {
+  const className = `clip-card ${featured ? "clip-card--featured" : "clip-card--compact"} ${
+    clip.href ? "clip-card--linked" : "clip-card--pending"
+  }`;
+  const content = (
+    <>
+      <Image
+        src={clip.image}
+        alt=""
+        fill
+        quality={90}
+        sizes={featured ? "(max-width: 900px) 100vw, 68vw" : "(max-width: 900px) 100vw, 30vw"}
+      />
+      <span className="clip-card__veil" aria-hidden="true" />
+      <span className="clip-card__scanline" aria-hidden="true" />
+
+      <span className="clip-card__serial" aria-hidden="true">
+        {String(index).padStart(2, "0")}
+      </span>
+      <span className="clip-card__state">
+        <i aria-hidden="true" />
+        {clip.href ? "NEW CLIP" : "PUBLISHING SLOT"}
+      </span>
+
+      <span className="clip-card__play" aria-hidden="true">
+        <i />
+      </span>
+
+      <span className="clip-card__copy">
+        <small>{clip.kicker}</small>
+        <strong>{clip.title}</strong>
+        <span>{clip.description}</span>
+        <em>
+          <b>{clip.dateLabel}</b>
+          <b>{clip.duration}</b>
+        </em>
+      </span>
+    </>
+  );
+
+  if (clip.href) {
+    return (
+      <a className={className} href={clip.href} target="_blank" rel="noreferrer">
+        {content}
+      </a>
+    );
+  }
+
+  return <article className={className}>{content}</article>;
+}
 
 export default function Home() {
   return (
@@ -76,10 +136,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="translation-clips section-shell section-block" id="clips">
+        <div className="section-heading translation-clips__heading">
+          <div>
+            <p className="eyebrow">01 / LATEST TRANSLATION CLIPS</p>
+            <div className="translation-clips__titleline">
+              <h2>最新翻訳クリップ</h2>
+              <span className="translation-clips__pulse">
+                <i aria-hidden="true" /> UPDATE CHANNEL
+              </span>
+            </div>
+          </div>
+          <p>
+            中国コミュニティの名場面を、日本語字幕で。新しい切り抜き動画を公開するたび、
+            このフィードの先頭から更新します。
+          </p>
+        </div>
+
+        <div className="clip-layout" aria-label="最新翻訳クリップ一覧">
+          <TranslationClipCard clip={translationClips[0]} featured index={1} />
+          <div className="clip-stack">
+            {translationClips.slice(1).map((clip, index) => (
+              <TranslationClipCard clip={clip} index={index + 2} key={clip.id} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section-shell section-block" id="themes">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">01 / THE FOUR EXPEDITIONS</p>
+            <p className="eyebrow">02 / THE FOUR EXPEDITIONS</p>
             <h2>4つの統合戦略、6回の仙術杯</h2>
           </div>
           <p>
@@ -121,7 +208,7 @@ export default function Home() {
       <section className="section-shell section-block ledger-section">
         <div className="section-heading section-heading--compact">
           <div>
-            <p className="eyebrow">02 / SEASON LEDGER</p>
+            <p className="eyebrow">03 / SEASON LEDGER</p>
             <h2>届次から探す</h2>
           </div>
           <Link className="text-link" href="/archive">
@@ -168,7 +255,7 @@ export default function Home() {
       <section className="section-shell section-block archive-notes">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">03 / ARCHIVE POLICY</p>
+            <p className="eyebrow">04 / ARCHIVE POLICY</p>
             <h2>未確認も、明記して残す。</h2>
           </div>
           <p>

@@ -17,6 +17,7 @@ export function SiteHeader() {
 
         <nav className="site-nav" aria-label="メインナビゲーション">
           <Link href="/">ホーム</Link>
+          <Link href="/#clips">翻訳クリップ</Link>
           <Link href="/archive">選手アーカイブ</Link>
           <a href={githubUrl} target="_blank" rel="noreferrer">
             GitHub <span aria-hidden="true">↗</span>
